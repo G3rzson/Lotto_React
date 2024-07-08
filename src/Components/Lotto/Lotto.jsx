@@ -107,6 +107,7 @@ export default function Lotto({ option }) {
       <div className='user-inputs'>
         {userNumbers.map((num, index) => (
           <input
+            id={`field-${index}`}
             className='input-field'
             key={index}
             type="text"
